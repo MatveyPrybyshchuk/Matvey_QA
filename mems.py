@@ -54,4 +54,4 @@ class MemeCollection:
         return min(self.memes, key=lambda meme: int(meme["likes"])) # defect| min >>> max
 
     def clear(self):
-        self.memes.pop()
+        self.memes.pop() # defect| pop() >>> clear()
