@@ -3,7 +3,6 @@ from mems import MemeCollection
 
 
 
-
 class TestMemesCollection:
     """1. Создайте фикстуры"""
 
